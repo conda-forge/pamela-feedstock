@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pamela-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/pamela-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pamela-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pamela-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pamela-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pamela-feedstock/branch/master)
