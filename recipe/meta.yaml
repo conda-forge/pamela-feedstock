@@ -10,13 +10,14 @@ source:
   md5: 96606c4d5ff3eb294486a9e184b70432
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   script: pip install --no-deps .
 
 requirements:
   build:
     - python
+    - pip
 
   run:
     - python
