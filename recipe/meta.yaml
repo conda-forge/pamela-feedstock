@@ -28,7 +28,7 @@ test:
 
 about:
   home: https://github.com/minrk/pamela
-  license: MIT License
+  license: MIT
   summary: PAM interface using ctypes
 
 extra:
