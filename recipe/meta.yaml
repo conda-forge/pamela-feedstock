@@ -13,7 +13,6 @@ build:
   number: 1001
   number: 0
   noarch: python
-  skip: true  # [win]
   script: pip install --no-deps .
 
 requirements:
