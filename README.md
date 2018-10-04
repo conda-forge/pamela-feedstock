@@ -14,9 +14,8 @@ Summary: PAM interface using ctypes
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pamela-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pamela-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/pamela-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pamela-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pamela-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pamela-feedstock)
 
 Current release info
 ====================
