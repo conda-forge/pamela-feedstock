@@ -10,8 +10,8 @@ source:
   md5: de6516118d51eb5fc97017f3b6d5c68b
 
 build:
-  number: 1000
-  skip: true  # [win]
+  number: 1001
+  noarch: python
   script: pip install --no-deps .
 
 requirements:
