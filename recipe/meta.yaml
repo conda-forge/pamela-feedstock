@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: pamela
@@ -7,10 +7,10 @@ package:
 source:
   fn: pamela-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/pamela/pamela-{{ version }}.tar.gz
-  md5: de6516118d51eb5fc97017f3b6d5c68b
+  md5: 5fc14f5275383ed8bdd509007af0323d
 
 build:
-  number: 1001
+  number: 0
   noarch: python
   script: pip install --no-deps .
 
