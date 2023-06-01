@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: pamela
@@ -7,7 +7,7 @@ package:
 source:
   fn: pamela-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/pamela/pamela-{{ version }}.tar.gz
-  md5: 5fc14f5275383ed8bdd509007af0323d
+  md5: 282516018839cda3a46d59fb2a71db4e
 
 build:
   number: 0
@@ -15,7 +15,7 @@ build:
   script: pip install --no-deps .
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
@@ -29,6 +29,7 @@ test:
 about:
   home: https://github.com/minrk/pamela
   license: MIT
+  license_file: COPYING
   summary: PAM interface using ctypes
 
 extra:
