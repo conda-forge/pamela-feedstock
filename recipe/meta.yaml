@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: pamela
@@ -7,7 +7,7 @@ package:
 source:
   fn: pamela-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/pamela/pamela-{{ version }}.tar.gz
-  md5: 282516018839cda3a46d59fb2a71db4e
+  md5: 37d71159f1bc17009ff568fd919c2a4d
 
 build:
   number: 0
