@@ -25,8 +25,11 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
+    - pip
   imports:
     - pamela
+  commands:
+    - pip check
 
 about:
   home: https://github.com/minrk/pamela
