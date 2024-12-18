@@ -6,25 +6,30 @@ package:
 
 source:
   fn: pamela-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/p/pamela/pamela-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/pamela/pamela-{{ version }}.tar.gz
   md5: 37d71159f1bc17009ff568fd919c2a4d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: pip install --no-deps .
 
 requirements:
   host:
-    - python
+    - python {{ python_min }}
     - pip
-
+    - setuptools
   run:
-    - python >=3.5
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
+    - pip
   imports:
     - pamela
+  commands:
+    - pip check
 
 about:
   home: https://github.com/minrk/pamela
